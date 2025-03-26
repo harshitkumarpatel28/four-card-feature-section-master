@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  background-color: #FAFAFA;
+  margin: 29px;
+}
+
+.feature-main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.feature-heading {
+  margin-bottom: 16px;
+}
+
+.feature-title {
+  font-size: 24px;
+  font-weight: 200;
+  letter-spacing: 0.25px;
+  line-height: 140%;
+  color: #4D4F62;
+}
+
+.feature-sub-title {
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 0.25px;
+  line-height: 140%;
+  color: #4D4F62;
+}
+
+.feature-sub-heading {
+  margin-bottom: 39px;
+}
+
+.feature-sub-heading-content {
+  font-size: 15px;
+  color: #4D4F62;
+  letter-spacing: 0.1px;
+  line-height: 140%;
+  font-weight: 400;
+  text-align: center;
+}
+
+.feature-supervisor {
+  padding: 32px;
+  border-radius: 8px;
+  border-top: 4px solid #44D3D2;
+  background-color: #FFFFFF;
+  box-shadow: 0 15px 30px -11px rgba(131, 166, 210, 0.3137254902);
+  margin-bottom: 32px;
+  width: 314px;
+}
+
+.feature-supervisor-title {
+  font-size: 20px;
+  line-height: 135%;
+  font-weight: 600;
+  color: #4D4F62;
+  text-align: left;
+  margin-bottom: 6px;
+}
+
+.feature-supervisor-content {
+  font-size: 13px;
+  line-height: 160%;
+  letter-spacing: 0.09px;
+  font-weight: 400;
+  color: #4D4F62;
+  text-align: left;
+  margin-bottom: 32px;
+}
+
+.feature-team-builder {
+  padding: 32px;
+  border-radius: 8px;
+  border-top: 4px solid #EA5454;
+  background-color: #FFFFFF;
+  box-shadow: 0 15px 30px -11px rgba(131, 166, 210, 0.3137254902);
+  margin-bottom: 32px;
+  width: 314px;
+}
+
+.feature-team-builder-title {
+  font-size: 20px;
+  line-height: 135%;
+  font-weight: 600;
+  color: #4D4F62;
+  text-align: left;
+  margin-bottom: 6px;
+}
+
+.feature-team-builder-content {
+  font-size: 13px;
+  line-height: 160%;
+  letter-spacing: 0.09px;
+  font-weight: 400;
+  color: #4D4F62;
+  text-align: left;
+  margin-bottom: 32px;
+}
+
+.feature-karma {
+  padding: 32px;
+  border-radius: 8px;
+  border-top: 4px solid #FCAE4A;
+  background-color: #FFFFFF;
+  box-shadow: 0 15px 30px -11px rgba(131, 166, 210, 0.3137254902);
+  margin-bottom: 32px;
+  width: 314px;
+}
+
+.feature-karma-title {
+  font-size: 20px;
+  line-height: 135%;
+  font-weight: 600;
+  color: #4D4F62;
+  text-align: left;
+  margin-bottom: 6px;
+}
+
+.feature-karma-content {
+  font-size: 13px;
+  line-height: 160%;
+  letter-spacing: 0.09px;
+  font-weight: 400;
+  color: #4D4F62;
+  text-align: left;
+  margin-bottom: 32px;
+}
+
+.feature-calculator {
+  padding: 32px;
+  border-radius: 8px;
+  border-top: 4px solid #549EF2;
+  background-color: #FFFFFF;
+  box-shadow: 0 15px 30px -11px rgba(131, 166, 210, 0.3137254902);
+  width: 314px;
+}
+
+.feature-calculator-title {
+  font-size: 20px;
+  line-height: 135%;
+  font-weight: 600;
+  color: #4D4F62;
+  text-align: left;
+  margin-bottom: 6px;
+}
+
+.feature-calculator-content {
+  font-size: 13px;
+  line-height: 160%;
+  letter-spacing: 0.09px;
+  font-weight: 400;
+  color: #4D4F62;
+  text-align: left;
+  margin-bottom: 32px;
+}
+
+.feature-image {
+  display: flex;
+  justify-content: end;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .feature-title, .feature-sub-title {
+    font-size: 36px;
+  }
+  .feature-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: ". supervisor supervisor ." "team-builder team-builder karma karma" ". calculator calculator .";
+  }
+  .feature-supervisor {
+    grid-area: supervisor;
+  }
+  .feature-team-builder {
+    grid-area: team-builder;
+    margin-right: 32px;
+  }
+  .feature-karma {
+    grid-area: karma;
+  }
+  .feature-calculator {
+    grid-area: calculator;
+  }
+}
+@media (min-width: 1440px) {
+  .feature-title, .feature-sub-title {
+    font-size: 36px;
+  }
+  .feature-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: ". team-builder ." "supervisor team-builder calculator" "supervisor karma calculator" ". karma .";
+  }
+  .feature-supervisor {
+    grid-area: supervisor;
+    margin-right: 32px;
+  }
+  .feature-team-builder {
+    grid-area: team-builder;
+  }
+  .feature-karma {
+    grid-area: karma;
+  }
+  .feature-calculator {
+    grid-area: calculator;
+  }
+}/*# sourceMappingURL=style.css.map */
