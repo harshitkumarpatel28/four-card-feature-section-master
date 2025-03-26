@@ -171,6 +171,9 @@ body {
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
+  .feature-main {
+    margin-top: 80px;
+  }
   .feature-title, .feature-sub-title {
     font-size: 36px;
   }
@@ -195,6 +198,9 @@ body {
   }
 }
 @media (min-width: 1440px) {
+  .feature-main {
+    margin-top: 102px;
+  }
   .feature-title, .feature-sub-title {
     font-size: 36px;
   }
