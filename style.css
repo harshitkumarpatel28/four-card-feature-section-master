@@ -230,4 +230,7 @@ body {
   .feature-calculator {
     grid-area: calculator;
   }
+  .feature-supervisor, .feature-team-builder, .feature-karma, .feature-calculator {
+    width: 350px;
+  }
 }/*# sourceMappingURL=style.css.map */
