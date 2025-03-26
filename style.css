@@ -38,7 +38,7 @@ body {
 }
 
 .feature-sub-heading {
-  margin-bottom: 39px;
+  margin-bottom: 58px;
 }
 
 .feature-sub-heading-content {
@@ -171,6 +171,9 @@ body {
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
+  .feature-sub-heading {
+    margin-bottom: 70px;
+  }
   .feature-main {
     margin-top: 80px;
   }
@@ -198,6 +201,9 @@ body {
   }
 }
 @media (min-width: 1440px) {
+  .feature-sub-heading {
+    margin-bottom: 70px;
+  }
   .feature-main {
     margin-top: 102px;
   }
