@@ -44,7 +44,6 @@ body {
 .feature-sub-heading-content {
     font-size: 15px;
     color: #4D4F62;
-    letter-spacing: 0.1px;
     line-height: 140%;
     font-weight: 400;
     text-align: center;
@@ -52,7 +51,7 @@ body {
 
 .feature-supervisor {
     padding: 32px;
-    border-radius: 8px;
+    border-radius: 4px;
     border-top: 4px solid #44D3D2;
     background-color: #FFFFFF;
     box-shadow: 0 15px 30px -11px #83a6d250;
@@ -81,7 +80,7 @@ body {
 
 .feature-team-builder {
     padding: 32px;
-    border-radius: 8px;
+    border-radius: 4px;
     border-top: 4px solid #EA5454;
     background-color: #FFFFFF;
     box-shadow: 0 15px 30px -11px #83a6d250;
@@ -110,7 +109,7 @@ body {
 
 .feature-karma {
     padding: 32px;
-    border-radius: 8px;
+    border-radius: 4px;
     border-top: 4px solid #FCAE4A;
     background-color: #FFFFFF;
     box-shadow: 0 15px 30px -11px #83a6d250;
@@ -139,11 +138,12 @@ body {
 
 .feature-calculator {
     padding: 32px;
-    border-radius: 8px;
+    border-radius: 4px;
     border-top: 4px solid #549EF2;
     background-color: #FFFFFF;
     box-shadow: 0 15px 30px -11px #83a6d250;
     width: 314px;
+    margin-bottom: 32px;
 }
 
 .feature-calculator-title {
@@ -179,6 +179,7 @@ body {
 
     .feature-main {
         margin-top: 80px;
+        margin-bottom: 80px;
     }
 
     .feature-title, .feature-sub-title {
@@ -213,7 +214,7 @@ body {
     }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1025px) {
 
     .feature-sub-heading {
         margin-bottom: 72px;
@@ -221,6 +222,7 @@ body {
 
     .feature-main {
         margin-top: 102px;
+        margin-bottom: 102px;
     }
 
     .feature-title, .feature-sub-title {
