@@ -9,6 +9,7 @@ body {
   font-size: 15px;
   background-color: #fafafa;
   margin: 29px;
+  height: 100vh;
 }
 
 .feature-main {
