@@ -45,6 +45,8 @@ body {
 .feature-sub-heading-content {
   font-size: 15px;
   color: #4d4f62;
+  letter-spacing: 0.1px;
+  line-height: 140%;
   font-weight: 400;
   text-align: center;
 }
@@ -254,6 +256,7 @@ body {
   .feature-title,
   .feature-sub-title {
     font-size: 36px;
+    line-height: normal;
   }
   .feature-section {
     display: grid;

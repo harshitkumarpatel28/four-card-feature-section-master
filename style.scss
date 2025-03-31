@@ -45,7 +45,8 @@ body {
 .feature-sub-heading-content {
   font-size: 15px;
   color: #4d4f62;
-//   line-height: 140%;
+  letter-spacing: 0.1px;
+  line-height: 140%;
   font-weight: 400;
   text-align: center;
 }
@@ -60,12 +61,12 @@ body {
 }
 
 .supervisor-bar {
-//   border-top-left-radius: 8px;
-//   border-top-right-radius: 8px;
+  //   border-top-left-radius: 8px;
+  //   border-top-right-radius: 8px;
   left: -10px;
   position: relative;
   width: 105%;
-  border:2px solid #44d3d2;
+  border: 2px solid #44d3d2;
 }
 
 .supervisor-block {
@@ -101,12 +102,12 @@ body {
 }
 
 .team-builder-bar {
-//   border-top-left-radius: 8px;
-//   border-top-right-radius: 8px;
+  //   border-top-left-radius: 8px;
+  //   border-top-right-radius: 8px;
   left: -10px;
   position: relative;
   width: 105%;
-  border:2px solid #ea5454;
+  border: 2px solid #ea5454;
 }
 
 .team-builder-block {
@@ -142,12 +143,12 @@ body {
 }
 
 .karma-bar {
-//   border-top-left-radius: 8px;
-//   border-top-right-radius: 8px;
+  //   border-top-left-radius: 8px;
+  //   border-top-right-radius: 8px;
   left: -10px;
   position: relative;
   width: 105%;
-  border:2px solid #fcae4a;
+  border: 2px solid #fcae4a;
 }
 
 .karma-block {
@@ -183,12 +184,12 @@ body {
 }
 
 .calculator-bar {
-//   border-top-left-radius: 8px;
-//   border-top-right-radius: 8px;
+  //   border-top-left-radius: 8px;
+  //   border-top-right-radius: 8px;
   left: -10px;
   position: relative;
   width: 105%;
-  border:2px solid #549ef2;
+  border: 2px solid #549ef2;
 }
 
 .calculator-block {
@@ -276,6 +277,7 @@ body {
   .feature-title,
   .feature-sub-title {
     font-size: 36px;
+    line-height: normal;
   }
 
   .feature-section {
