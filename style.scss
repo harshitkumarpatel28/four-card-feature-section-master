@@ -1,263 +1,298 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
-    font-size: 15px;
-    background-color: #FAFAFA;
-    margin: 29px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  background-color: #fafafa;
+  margin: 29px;
 }
 
 .feature-main {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .feature-heading {
-    margin-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .feature-title {
-    font-size: 24px;
-    font-weight: 200;
-    letter-spacing: 0.25px;
-    line-height: 140%;
-    color: #4D4F62;
+  font-size: 24px;
+  font-weight: 200;
+  letter-spacing: 0.25px;
+  line-height: 140%;
+  color: #4d4f62;
 }
 
 .feature-sub-title {
-    font-size: 24px;
-    font-weight: 600;
-    letter-spacing: 0.25px;
-    line-height: 140%;
-    color: #4D4F62;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0.25px;
+  line-height: 140%;
+  color: #4d4f62;
 }
 
 .feature-sub-heading {
-    margin-bottom: 58px;
+  margin-bottom: 58px;
 }
 
 .feature-sub-heading-content {
-    font-size: 15px;
-    color: #4D4F62;
-    line-height: 140%;
-    font-weight: 400;
-    text-align: center;
+  font-size: 15px;
+  color: #4d4f62;
+  line-height: 140%;
+  font-weight: 400;
+  text-align: center;
 }
 
 .feature-supervisor {
-    padding: 32px;
-    border-radius: 4px;
-    border-top: 4px solid #44D3D2;
-    background-color: #FFFFFF;
-    box-shadow: 0 15px 30px -11px #83a6d250;
-    margin-bottom: 32px;
-    width: 314px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 15px 30px -11px #83a6d250;
+  margin-bottom: 32px;
+  width: 314px;
+}
+
+.supervisor-bar {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border: 4px solid #44d3d2;
+}
+
+.supervisor-block {
+  padding: 32px;
 }
 
 .feature-supervisor-title {
-    font-size: 20px;
-    line-height: 135%;
-    font-weight: 600;
-    color: #4D4F62;
-    text-align: left;
-    margin-bottom: 6px;
+  font-size: 20px;
+  line-height: 135%;
+  font-weight: 600;
+  color: #4d4f62;
+  text-align: left;
+  margin-bottom: 6px;
 }
 
 .feature-supervisor-content {
-    font-size: 13px;
-    line-height: 160%;
-    letter-spacing: 0.09px;
-    font-weight: 400;
-    color: #4D4F62;
-    text-align: left;
-    margin-bottom: 32px;
+  font-size: 13px;
+  line-height: 160%;
+  letter-spacing: 0.09px;
+  font-weight: 400;
+  color: #4d4f62;
+  text-align: left;
+  margin-bottom: 32px;
 }
 
 .feature-team-builder {
-    padding: 32px;
-    border-radius: 4px;
-    border-top: 4px solid #EA5454;
-    background-color: #FFFFFF;
-    box-shadow: 0 15px 30px -11px #83a6d250;
-    margin-bottom: 32px;
-    width: 314px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-shadow: 0 15px 30px -11px #83a6d250;
+  margin-bottom: 32px;
+  width: 314px;
+}
+
+.team-builder-bar {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border: 4px solid #ea5454;
+}
+
+.team-builder-block {
+  padding: 32px;
 }
 
 .feature-team-builder-title {
-    font-size: 20px;
-    line-height: 135%;
-    font-weight: 600;
-    color: #4D4F62;
-    text-align: left;
-    margin-bottom: 6px;
+  font-size: 20px;
+  line-height: 135%;
+  font-weight: 600;
+  color: #4d4f62;
+  text-align: left;
+  margin-bottom: 6px;
 }
 
 .feature-team-builder-content {
-    font-size: 13px;
-    line-height: 160%;
-    letter-spacing: 0.09px;
-    font-weight: 400;
-    color: #4D4F62;
-    text-align: left;
-    margin-bottom: 32px;
+  font-size: 13px;
+  line-height: 160%;
+  letter-spacing: 0.09px;
+  font-weight: 400;
+  color: #4d4f62;
+  text-align: left;
+  margin-bottom: 32px;
 }
 
 .feature-karma {
-    padding: 32px;
-    border-radius: 4px;
-    border-top: 4px solid #FCAE4A;
-    background-color: #FFFFFF;
-    box-shadow: 0 15px 30px -11px #83a6d250;
-    margin-bottom: 32px;
-    width: 314px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-shadow: 0 15px 30px -11px #83a6d250;
+  margin-bottom: 32px;
+  width: 314px;
+}
+
+.karma-bar {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border: 4px solid #fcae4a;
+}
+
+.karma-block {
+  padding: 32px;
 }
 
 .feature-karma-title {
-    font-size: 20px;
-    line-height: 135%;
-    font-weight: 600;
-    color: #4D4F62;
-    text-align: left;
-    margin-bottom: 6px;
+  font-size: 20px;
+  line-height: 135%;
+  font-weight: 600;
+  color: #4d4f62;
+  text-align: left;
+  margin-bottom: 6px;
 }
 
 .feature-karma-content {
-    font-size: 13px;
-    line-height: 160%;
-    letter-spacing: 0.09px;
-    font-weight: 400;
-    color: #4D4F62;
-    text-align: left;
-    margin-bottom: 32px;
+  font-size: 13px;
+  line-height: 160%;
+  letter-spacing: 0.09px;
+  font-weight: 400;
+  color: #4d4f62;
+  text-align: left;
+  margin-bottom: 32px;
 }
 
 .feature-calculator {
-    padding: 32px;
-    border-radius: 4px;
-    border-top: 4px solid #549EF2;
-    background-color: #FFFFFF;
-    box-shadow: 0 15px 30px -11px #83a6d250;
-    width: 314px;
-    margin-bottom: 32px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-shadow: 0 15px 30px -11px #83a6d250;
+  width: 314px;
+  margin-bottom: 32px;
+}
+
+.calculator-bar {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border: 4px solid #549ef2;
+}
+
+.calculator-block {
+  padding: 32px;
 }
 
 .feature-calculator-title {
-    font-size: 20px;
-    line-height: 135%;
-    font-weight: 600;
-    color: #4D4F62;
-    text-align: left;
-    margin-bottom: 6px;
+  font-size: 20px;
+  line-height: 135%;
+  font-weight: 600;
+  color: #4d4f62;
+  text-align: left;
+  margin-bottom: 6px;
 }
 
 .feature-calculator-content {
-    font-size: 13px;
-    line-height: 160%;
-    letter-spacing: 0.09px;
-    font-weight: 400;
-    color: #4D4F62;
-    text-align: left;
-    margin-bottom: 32px;
+  font-size: 13px;
+  line-height: 160%;
+  letter-spacing: 0.09px;
+  font-weight: 400;
+  color: #4d4f62;
+  text-align: left;
+  margin-bottom: 32px;
 }
 
 .feature-image {
-    display: flex;
-    justify-content: end;
-    padding-bottom: 10px;
+  display: flex;
+  justify-content: end;
+  padding-bottom: 10px;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
+  .feature-sub-heading {
+    margin-bottom: 70px;
+  }
 
-    .feature-sub-heading {
-        margin-bottom: 70px;
-    }
+  .feature-main {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
 
-    .feature-main {
-        margin-top: 80px;
-        margin-bottom: 80px;
-    }
+  .feature-title,
+  .feature-sub-title {
+    font-size: 36px;
+  }
 
-    .feature-title, .feature-sub-title {
-        font-size: 36px;
-    }
+  .feature-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:
+      ". supervisor supervisor ."
+      "team-builder team-builder karma karma"
+      ". calculator calculator .";
+  }
 
-    .feature-section {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-        grid-template-areas: 
-            '. supervisor supervisor .' 
-            'team-builder team-builder karma karma' 
-            '. calculator calculator .';
-    }
+  .feature-supervisor {
+    grid-area: supervisor;
+  }
 
-    .feature-supervisor {
-        grid-area: supervisor;
-    }
+  .feature-team-builder {
+    grid-area: team-builder;
+    margin-right: 32px;
+  }
 
-    .feature-team-builder {
-        grid-area: team-builder;
-        margin-right: 32px;
-    }
+  .feature-karma {
+    grid-area: karma;
+  }
 
-    .feature-karma {
-        grid-area: karma;
-    }
-
-    .feature-calculator {
-        grid-area: calculator;
-    }
+  .feature-calculator {
+    grid-area: calculator;
+  }
 }
 
 @media (min-width: 1025px) {
+  .feature-sub-heading {
+    margin-bottom: 72px;
+  }
 
-    .feature-sub-heading {
-        margin-bottom: 72px;
-    }
+  .feature-main {
+    margin-top: 102px;
+    margin-bottom: 102px;
+  }
 
-    .feature-main {
-        margin-top: 102px;
-        margin-bottom: 102px;
-    }
+  .feature-title,
+  .feature-sub-title {
+    font-size: 36px;
+  }
 
-    .feature-title, .feature-sub-title {
-        font-size: 36px;
-    }
+  .feature-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas:
+      ". team-builder ."
+      "supervisor team-builder calculator"
+      "supervisor karma calculator"
+      ". karma .";
+  }
 
-    .feature-section {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(4, 1fr);
-        grid-template-areas: 
-            '. team-builder .' 
-            'supervisor team-builder calculator' 
-            'supervisor karma calculator'
-            '. karma .';
-    }
+  .feature-supervisor {
+    grid-area: supervisor;
+    margin-right: 32px;
+  }
 
-    .feature-supervisor {
-        grid-area: supervisor;
-        margin-right: 32px;
-    }
+  .feature-team-builder {
+    grid-area: team-builder;
+  }
 
-    .feature-team-builder {
-        grid-area: team-builder;
-    }
+  .feature-karma {
+    grid-area: karma;
+  }
 
-    .feature-karma {
-        grid-area: karma;
-    }
+  .feature-calculator {
+    grid-area: calculator;
+  }
 
-    .feature-calculator {
-        grid-area: calculator;
-    }
-
-    .feature-supervisor, .feature-team-builder, .feature-karma, .feature-calculator {
-        width: 350px;
-    }
+  .feature-supervisor,
+  .feature-team-builder,
+  .feature-karma,
+  .feature-calculator {
+    width: 350px;
+  }
 }
