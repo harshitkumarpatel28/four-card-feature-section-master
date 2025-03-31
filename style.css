@@ -62,7 +62,7 @@ body {
   left: -10px;
   position: relative;
   width: 105%;
-  border: 3px solid #44d3d2;
+  border: 2px solid #44d3d2;
 }
 
 .supervisor-block {
@@ -101,7 +101,7 @@ body {
   left: -10px;
   position: relative;
   width: 105%;
-  border: 3px solid #ea5454;
+  border: 2px solid #ea5454;
 }
 
 .team-builder-block {
@@ -140,7 +140,7 @@ body {
   left: -10px;
   position: relative;
   width: 105%;
-  border: 3px solid #fcae4a;
+  border: 2px solid #fcae4a;
 }
 
 .karma-block {
@@ -179,7 +179,7 @@ body {
   left: -10px;
   position: relative;
   width: 105%;
-  border: 3px solid #549ef2;
+  border: 2px solid #549ef2;
 }
 
 .calculator-block {
